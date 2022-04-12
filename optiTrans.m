@@ -3,7 +3,7 @@
 % The Hong Kong Polytechnic University
 % email: boyang.li@connect.polyu.edu.hk
 % Website: https://boyangli.com
-% May 2014;
+% May 2018;
 
 % Require: OptimTraj Toolbox https://github.com/MatthewPeterKelly/OptimTraj
 
@@ -47,7 +47,7 @@ problem.bounds.finalTime.upp = duration;
 problem.bounds.initialState.low = [0;0;0];
 problem.bounds.initialState.upp = [0;0;0];
 problem.bounds.finalState.low = [8;-0.5;-0.5*pi];
-problem.bounds.finalState.upp = [inf;0.5;-7/18*pi]; %-80¡ã4/9pi -70 7/18pi
+problem.bounds.finalState.upp = [inf;0.5;-7/18*pi]; %-80Â¡Ã£4/9pi -70 7/18pi
 
 problem.bounds.state.low = [0;-1;-pi];
 problem.bounds.state.upp = [15;0;pi];
