@@ -2,7 +2,7 @@
 % The Hong Kong Polytechnic University
 % email: boyang.li@connect.polyu.edu.hk
 % Website: https://boyangli.com
-% May 2014;
+% May 2018;
 
 function state_dot = tailsitterDyna2(state,control,p)
 % dx = tailsitterDyna(state,control,p)
