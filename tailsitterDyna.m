@@ -66,7 +66,7 @@ Fzi = -Fxb.*sin(theta)+Fzb.*cos(theta);
 
 % derivatave
 xdd = -ft_cmd .* sin(theta) ./ p.mass + Fxi;%-Fd
-zdd = p.g - ft_cmd .* cos(theta) + Fzi;%-Fl
+zdd = p.g - ft_cmd .* cos(theta)./ p.mass  + Fzi;%-Fl
 thetad = (1/p.Ts) .* (theta_cmd - theta);
 state_dot = [xdd; zdd; thetad];
 end
